@@ -1,0 +1,226 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.glyphicon-th-list{
+    display: inline;
+}
+.meko{
+    font-family: 'Italianno', cursive;
+    font-size: 50px;
+    font-weight:900;
+}
+.catgo{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.catgo li{
+    display: inline-block;
+    position: relative;
+}
+.catgo li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+    font-family: cursive;
+}
+.catgo li button{
+    width: 350%;
+    height: 80%;
+    background-color:rgb(10, 167, 167) ;
+    border-radius: 50px;
+    padding: 2%;
+    margin: 2%;
+    border-color: rgb(10, 167, 167);
+    box-shadow: 5px 3px 12px 1px black;
+    cursor: pointer;
+    transition-duration: .7s;
+}
+.catgo li button:hover{
+    background-color: white;
+    box-shadow: 5px 3px 12px 1px black inset;
+}
+.catgo li a:hover{
+    color: black;
+}
+.menu{
+    width: 350%;
+    background-color: rgb(10, 167, 167);
+    border-radius: 10px;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+.menu li{
+    display: block;
+    border-radius: 10px;
+    padding: 3%;
+    margin: 1%;
+    transition-duration: .6s;
+}
+.menu li a:hover{
+    color: white;
+}
+.menu li:hover{
+    background-color:#7e7c7c ;
+    color: white;
+}
+.catgo li:hover .menu{
+    display: block;
+}
+.navstick{
+    position: sticky;
+    top: 10px;
+    right:1px;
+    left: 1px;
+}
+.maincontent{
+    margin-left: 5%;
+    margin-top: 0%;
+}
+.storename{
+    background-color: white;
+    width: auto ;
+    padding: 1%;
+    border-radius: 5px;
+    box-shadow: 0px 13px 14px 3px black;
+}
+h1{
+    font-size: medium;
+    font-weight: 200;
+    font-style: italic;
+    font-family: cursive;
+    display: inline;/*keep the store name with the buttons*/
+    margin: 5%;
+}
+body{
+    background-color: #00151f;
+    height: 100%;
+}
+main{
+    margin: 0%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+.pages{
+    display: inline; /*keep the store name with the buttons*/
+}
+.navlink{
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+    font-family: cursive;
+}
+.navlink:hover{
+    border-radius: 15px;
+    background-color:rgb(10, 167, 167);
+    padding: 5%;
+    color: white;
+    box-shadow: 0px 7px 22px 2px beige;
+    text-decoration: none;
+}
+.navbouton{
+    width: calc(93%/7);
+    background-color:white;
+    border: none;
+    cursor: pointer;
+}
+.navcategories{
+    width: 98%;
+    height: 10%;
+    background-color:rgb(10, 167, 167) ;
+    position: relative;
+    left: 15px;
+    padding: 1%;
+    border-radius: 5px;
+    box-shadow: 0px 6px 14px 1px rgb(26 58 58) inset;
+}
+.maleshoes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.theproduct{
+    display: inline-block;
+    width: 25%;
+    margin: 3%;
+}
+.theproduct img{
+    width: 250px;
+    height: 250px;
+    margin: 2%;
+    box-shadow: 5px 5px 25px 2px #095c60;
+    border-radius: 110px;
+}
+.prodtnumber{
+    color: white;
+    font-size: medium;
+    font-family: cursive;  
+}
+.theproduct button:hover .material-icons{
+    color: #7e7c7c;
+}
+.theproduct button{
+    width: 60%;
+    border-radius: 3px;
+    font-size: medium;
+    font-family: cursive;
+    margin: 1%;
+    transform: translate(44px, 1px);
+    transition-duration: .3s;
+    background-color:rgb(10, 167, 167) ;
+}
+.theproduct button:hover{
+    color: white;
+    background-color:white;
+    border-color: white;
+}
+.theproduct button a{
+    text-decoration: none;
+    color: white;
+    transition-duration: .3s;
+    font-size: small;
+}
+.theproduct button a:hover{
+    font-size: medium;
+    color: black;
+}
+.botonprodct p{
+    color: white;
+    font-size: medium;
+    font-family: cursive;
+    margin-left: 25%;
+    margin-bottom: 0%;
+}
+.botonprodct{
+    width: 70%;
+    height: 25%;
+    margin: 10px;
+    transform: translate(10px, 10px);
+    border-radius: 5px;
+    background-color: #00000054;
+    box-shadow: 3px 2px 5px 3px black;
+}
+h4{
+    color: #00151f;
+    font-family: 'Italianno', cursive;
+    font-weight:bolder;
+    font-size: 25px;
+}
+.unbrdev{
+    background-color: #ffffff;
+    width: 80%;
+    height: 100%;
+    padding: 1%;
+    border-radius: 15px;
+    transform: translate(-200px,-30px);
+    display: none;
+    position: absolute;
+    z-index: 999;
+}
+.goshoping:hover .unbrdev{
+    display: block;
+}

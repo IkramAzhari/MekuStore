@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color: #00151f;
+    
+    width: auto;
+    height: auto;   
+}
+.flx{
+    display: flex;
+    justify-content: center;
+    transform: translatey(100px);
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    font-style: italic;
+    font-family: cursive;
+    padding: 1%;
+    animation-name: anime;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease ;
+}
+@keyframes anime{
+    0%{
+        color: white;
+        transform: rotate(-10deg);  
+        text-shadow: 3px 3px  rgb(10, 167, 167); 
+    }
+    50%{
+        color: rgb(10, 167, 167);
+        text-shadow: 3px 3px  white;
+        transform: rotate(370deg);
+    }
+    100%{
+        color: white;
+        transform: rotate(-10deg);
+        text-shadow: 3px 3px  rgb(10, 167, 167); 
+    }
+}
+h2{
+    transform: translateY(200px);
+    color:white ;
+    text-shadow: 2px 2px 3px  rgb(10, 167, 167);
+    text-align: center;
+    font-size: large;
+    font-family: cursive;
+    font-style: oblique;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    font-family: cursive;
+    transition-duration: .5s;
+}
+button{
+    transform: translate(350px ,230px);
+    background-color: rgb(10, 167, 167);
+    border: 2px solid rgb(10, 167, 167);
+    box-shadow: 1px 1px 20px 1px white;
+    margin: 2%;
+    border-radius: 10px;
+    padding: 1%;
+    width: 30%;
+    height: 30%;
+    transition-duration: .5s;
+}
+button:hover{
+    background-color: white;
+    box-shadow: 1px 1px 20px 1px rgb(10, 167, 167);
+}
+a:hover{
+    color: rgb(10, 167, 167);
+}

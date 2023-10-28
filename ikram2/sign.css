@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.meko{
+    font-family: 'Italianno', cursive;
+    font-size:100px;
+    font-weight:5000;
+}
+body{
+    background-color: #7e7c7c6a;
+    height: fit-content;
+}
+h1{
+    font-family: cursive;
+    font-size: xx-large;
+    color: #00151f;
+    text-align: center;
+    margin: 3% auto;
+}
+.sign{
+    background-color: #00151f;
+    width: 25%;
+    border-radius: 10px;
+    padding: 5%;
+    margin: 10% auto;
+}
+h2{
+    text-align: center;
+    font-size: medium;
+    font-family: cursive;
+    color: white;
+    margin-top: -10%;
+    margin-bottom: 3%;
+    padding: 2%;
+}
+label{
+    color: white;
+    font-size:small;
+    font-family: cursive;
+    letter-spacing: 2%;
+}
+input{
+    margin: 2%;
+    width: 50%;
+}
+.sin{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+}
+.sin input{
+    margin-top: 10%;
+    border-radius: 10px;
+    width: 50%;
+    background-color: rgb(10, 167, 167);
+    border: 2px solid white;
+    transition-duration: .5s;
+}
+.sin input:hover{
+    box-shadow: 1px 1px 2px 2px black inset;
+}
+button{
+    display: block;
+    transform: translate(65px, 10px);
+    background-color: rgb(10, 167, 167) ;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 50%;
+    transition-duration: .5s;
+}
+button:hover{
+    box-shadow: 1px 1px 2px 2px black inset;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+i{
+    transform: translate(10px, 10px);
+    transition-duration: .3s;
+    color: rgb(10, 167, 167);
+}
+.fa-instagram:hover{
+    color: rgb(228, 41, 200);
+}
+.fa-github:hover{
+    color: white;
+}
+.fa-facebook-square:hover{
+    color: blue;
+}
+.folow{
+    font-family: 'Italianno', cursive;
+    color: #7e7c7c;
+    font-size: 45px;
+    text-shadow: 3px 3px 3px white;
+}
+footer{
+    display: flex;
+    background-color: #00151f;
+    padding: 0%;
+    margin-top: 3%;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
